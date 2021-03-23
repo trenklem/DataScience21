@@ -7,7 +7,7 @@ class ListKeeper:
     Stores named lists
     """
 
-    def __init__(self, name: str = None, li: [int] = None):
+    def __init__(self, name: str = "example", li: [int] = [1, 2, 3, 4, 5]):
         self.__list = {}
         if name is not None and li is not None:
             self.add(name, li)
